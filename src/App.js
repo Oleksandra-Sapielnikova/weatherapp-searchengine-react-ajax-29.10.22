@@ -8,7 +8,7 @@ export default function App() {
       <SearchEngine />
       <span className="opensourceLink">
         <a
-          href="https://codesandbox.io/s/weather-app-search-engine-react-ajax-to3gko?file=/src/App.js:0-204"
+          href="https://github.com/Oleksandra-Sapielnikova/weatherapp-searchengine-react-ajax-29.10.22"
           target="_blank"
           rel="noreferrer"
         >
