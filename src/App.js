@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import SearchEngine from "./SearchEngine";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <h1>Weather App</h1>
+      <SearchEngine />
+      <span className="opensourceLink">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://codesandbox.io/s/weather-app-search-engine-react-ajax-to3gko?file=/src/App.js:0-204"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
-        </a>
-      </header>
+          Open-source code,
+        </a>{" "}
+        by Oleksandra Sapielnikova
+      </span>
     </div>
   );
 }
-
-export default App;

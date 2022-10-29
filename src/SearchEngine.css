@@ -1,0 +1,8 @@
+.weatherList li {
+  text-align: left;
+  list-style-type: none;
+}
+
+.weatherList ul {
+  margin-top: 25px;
+}
